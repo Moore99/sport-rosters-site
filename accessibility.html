@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accessibility — Sport Rosters</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f7fa; color: #1a1a2e; }
+    header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: white; padding: 48px 24px 36px; text-align: center; }
+    header h1 { font-size: 2rem; font-weight: 700; margin-bottom: 8px; }
+    header p { opacity: 0.85; font-size: 0.95rem; }
+    header a { color: rgba(255,255,255,0.7); font-size: 0.9rem; text-decoration: none; display: inline-block; margin-top: 16px; }
+    header a:hover { opacity: 0.8; }
+    section { max-width: 700px; margin: 0 auto; padding: 48px 24px; }
+    .card { background: white; border-radius: 12px; padding: 32px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-bottom: 24px; }
+    h2 { font-size: 1.15rem; font-weight: 700; margin-bottom: 12px; margin-top: 24px; color: #1a1a2e; }
+    h2:first-child { margin-top: 0; }
+    p { color: #555; line-height: 1.7; margin-bottom: 12px; font-size: 0.95rem; }
+    p:last-child { margin-bottom: 0; }
+    ul { color: #555; line-height: 1.7; margin-bottom: 12px; padding-left: 20px; font-size: 0.95rem; }
+    li { margin-bottom: 4px; }
+    a { color: #1a1a2e; font-weight: 600; }
+    .updated { font-size: 0.85rem; color: #888; margin-bottom: 24px; }
+    footer { text-align: center; padding: 32px 24px; font-size: 0.85rem; color: #888; border-top: 1px solid #e5e7eb; }
+    footer a { color: #555; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Accessibility</h1>
+  <p>Sport Rosters — Team Management App</p>
+  <a href="index.html">← Back to home</a>
+</header>
+
+<section>
+  <p class="updated">Last updated: April 2026</p>
+
+  <div class="card">
+    <h2>Our Commitment</h2>
+    <p>Kernkraft Consulting Inc. is committed to making Sport Rosters accessible to everyone, including people with disabilities. We aim to meet or exceed platform accessibility guidelines on both iOS and Android.</p>
+
+    <h2>Supported Features</h2>
+
+    <h2>Screen Readers</h2>
+    <p>Sport Rosters is compatible with the built-in screen readers on both platforms:</p>
+    <ul>
+      <li><strong>iOS:</strong> VoiceOver — interactive elements are labelled so VoiceOver can describe them accurately</li>
+      <li><strong>Android:</strong> TalkBack — buttons, inputs, and navigation items include semantic labels</li>
+    </ul>
+
+    <h2>Dynamic Text Sizing</h2>
+    <p>The app respects your device's system font size setting. Increasing the text size in your device accessibility settings will increase text size throughout the app. Avatars and touch targets scale proportionally to remain usable at larger text sizes.</p>
+
+    <h2>Dark Mode</h2>
+    <p>Sport Rosters follows your device's system appearance setting. Switching to Dark Mode in your device settings will apply a dark colour scheme throughout the app, which can reduce eye strain and improve readability for some users.</p>
+
+    <h2>Colour Contrast</h2>
+    <p>UI elements are designed to meet WCAG AA contrast ratios. Interactive controls use distinct colours and icons so that meaning is not conveyed by colour alone.</p>
+
+    <h2>Touch Targets</h2>
+    <p>All interactive elements meet minimum touch target size guidelines to support users with motor accessibility needs.</p>
+
+    <h2>Biometric Authentication</h2>
+    <p>Face ID, Touch ID, and fingerprint unlock are supported as an alternative to password entry, which can be easier for users with motor or cognitive accessibility needs.</p>
+
+    <h2>Known Limitations</h2>
+    <p>We are continuously improving accessibility. Current known limitations include:</p>
+    <ul>
+      <li>Some drag-and-drop interactions in the lineup builder do not have a full keyboard or switch access alternative. A tap-based reordering option is planned.</li>
+      <li>Complex data tables (boat seating, availability grids) may have reduced screen reader context on older devices.</li>
+    </ul>
+
+    <h2>Platform Accessibility Settings</h2>
+    <p>To get the most from Sport Rosters, you can enable these platform features:</p>
+    <ul>
+      <li><strong>iOS:</strong> Settings → Accessibility → VoiceOver, Display &amp; Text Size, Motion</li>
+      <li><strong>Android:</strong> Settings → Accessibility → TalkBack, Font size, Display size</li>
+    </ul>
+
+    <h2>Feedback</h2>
+    <p>If you encounter an accessibility barrier or have a suggestion, please contact us at <a href="mailto:admin@nuclear-motd.com">admin@nuclear-motd.com</a>. We take all accessibility feedback seriously and aim to respond within 5 business days.</p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 Kernkraft Consulting Inc. &nbsp;|&nbsp;
+    <a href="privacy.html">Privacy Policy</a> &nbsp;|&nbsp;
+    <a href="terms.html">Terms of Service</a> &nbsp;|&nbsp;
+    <a href="support.html">Support</a>
+  </p>
+</footer>
+
+</body>
+</html>
